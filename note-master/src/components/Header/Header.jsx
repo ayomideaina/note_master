@@ -23,7 +23,9 @@ const Header = () => {
         <div className="hero-text">
           <div>
             <h1>Let's discover our new notebook collections</h1>
-            <p>Step into our world where every page holds the promise of new ideas and endless possibilities.</p>
+            <p>
+              Step into our world where every page holds the promise of new ideas and endless possibilities.
+            </p>
           </div>
           <div className="hero-button">
             <button className="btn-explore ">Explore</button>

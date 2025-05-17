@@ -70,6 +70,27 @@ nav{
     text-align: left;
     margin-inline-start: auto;
 }
+.hero-text p{
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(37, 37, 37);
+    width: 488px;
+    text-align: left;
+    margin-inline-start: auto;
+    padding-block: 25px;
+}
 .hero-image{
     width: 60%;
+}
+.btn-explore {
+    padding: 10px 20px;
+    background-color:rgb(37, 37, 37) ;
+    color: white;
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 16px;
+    margin-left: 0;
+    /* text-align: center; */
+    width: 195px;
+    display: inline-block;
 }

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.category-section h1{
+    text-align: left;
+    font-style: normal;
+    margin-left:100px;
+    padding-left: 100px;
+}
+.categories img{
+    width: 80%;
+}
+.categories{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80%;
+}
