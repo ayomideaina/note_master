@@ -1,0 +1,86 @@
+
+.note-section{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    gap:30px;
+    padding-inline: 100px;
+    justify-content: space-around;
+    max-width: 100%;
+    padding-block: 90px;
+}
+.left-content{
+    width: 35%;
+}
+.left-content h2{
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 52px;
+    color: rgb(37, 37, 37);
+}
+.right-content{
+    width: 37%;
+    text-align: left;
+}
+.right-text h4{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.right-text p{
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+/* Product section */
+.get-product{
+    background-image: url(https://m0r5p0.yourbrand.studio/files/dynamicContent/sites/m0r5p0/images/en/webpage_69/m694epyz/element_1195/pexels-cottonbro-studio-5190596.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    max-width: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    gap: 250px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.btn-sec{
+    padding-top: 40px;
+    padding-right: 50px;
+    /* width: 40%; */
+}
+.btn-percent{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    display:block;
+    /* margin-block: 90px; */
+    padding:32px 25px;
+    border-radius: 50%;
+    border: none;
+}
+.product-sec{
+    padding-top: 100px;
+    width: 40%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-inline: 150px 50px;
+    font-family: "Questrial", sans-serif ;
+    font-weight: 400;
+    font-weight: 400;
+}
+.product-sec p{
+    line-height: 26px;
+    font-size: 16px;
+    padding-block: 10px;
+}
+
+.product-sec h2{
+    padding-block: 5px 10px;
+    font-size: 48px;
+    line-height: 52px;
+
+}

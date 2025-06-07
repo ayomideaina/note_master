@@ -49,6 +49,7 @@ nav{
 }
 .navlinks a:hover{
     transition: all 0.3s ease-in-out;
+    color: #000;
 }
 .hero-section{
     display: flex;
@@ -82,15 +83,15 @@ nav{
 .hero-image{
     width: 60%;
 }
-.btn-explore {
+.hero-text .btn-explore {
     padding: 10px 20px;
     background-color:rgb(37, 37, 37) ;
     color: white;
     cursor: pointer;
     line-height: 26px;
     font-size: 16px;
-    margin-left: 0;
+    margin-left: 170px;
     /* text-align: center; */
-    width: 195px;
-    display: inline-block;
+    width: 200px;
+    display: block;
 }
