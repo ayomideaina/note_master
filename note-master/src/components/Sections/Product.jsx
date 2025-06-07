@@ -11,7 +11,10 @@ const Product = () => {
       <div className="product-sec">
         <p>Product of the month</p>
         <h2>Weekly Planner Notebook</h2>
-        <h4 className="product-price">10.49$ 15.49$</h4>
+        <h4 className="product-price">
+          10.49$ 
+          <span className="crossed-price"> 15.49$</span>
+        </h4>
         <p className="product-p">
           Stay organized and on top of your schedule with our Weekly Planner Notebook. 
           This meticulously designed notebook offers a convenient layout to help you plan your week effectively. 
