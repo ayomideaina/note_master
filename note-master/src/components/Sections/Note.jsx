@@ -1,7 +1,6 @@
 import React from 'react';
 import './Note.css';
 
-
 const Note = () => {
   return (
     <div className="note-section">
@@ -10,10 +9,10 @@ const Note = () => {
         </div>
         <div className='right-content'>
             <div className="right-text">
-                <h4>Premium quality paper</h4>
                 <p>Thick, acid-free paper ensures a smooth writing experience without fear of ink bleed-through, 
                     making these notebooks ideal for a variety of writing instruments.
                 </p>
+
             </div>
             <div className="right-text">
                 <h4>Durable cover</h4>

@@ -37,16 +37,16 @@
 /* Product section */
 .get-product{
     background-image: url(https://m0r5p0.yourbrand.studio/files/dynamicContent/sites/m0r5p0/images/en/webpage_69/m694epyz/element_1195/pexels-cottonbro-studio-5190596.png);
-    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     height: 600px;
     max-width: 100%;
     display:flex;
     flex-direction: row-reverse;
     gap: 250px;
     justify-content: space-between;
-    margin-bottom: 60px;
 }
 .btn-sec{
     padding-top: 40px;
@@ -70,7 +70,6 @@
     padding-inline: 150px 50px;
     font-family: "Questrial", sans-serif ;
     font-weight: 400;
-    font-weight: 400;
 }
 .product-sec p{
     line-height: 26px;
@@ -90,4 +89,15 @@
 .crossed-price{
     text-decoration: line-through;
     padding-left: 10px;
+}
+.go-to{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    display:block;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding:10px 30px;
+    border: none;
+    cursor: pointer;
 }
