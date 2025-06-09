@@ -5,6 +5,8 @@ import './reviews.css';
 const Subscribe = () => {
   return (
     <div className="subscribe">
+      {/* <div className="subscribe-bg" /> */}
+
       <div className="btn-sec">
         <button className='btn-percent'>-10%</button>
       </div>
@@ -16,8 +18,8 @@ const Subscribe = () => {
            Don't miss out - subscribe now and elevate your note-taking experience with NoteMaster!
         </p>
         <div className="sec-input">
-            <input type="email" name="" id="" />
-            <input type="button" className="go-to" value="send" />
+            <input type="email" id="mail" placeholder="your@email.com" />
+            <input type="button" className="send-btn" value="send" />
         </div>
       </div>
     </div>

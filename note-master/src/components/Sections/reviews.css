@@ -1,3 +1,4 @@
+
 .review-section{
     background-color: rgb(241, 241, 241);
     display: flex;
@@ -7,7 +8,6 @@
     max-width: 100%;
     padding-block:100px;
 }
-
 .left-content{
     width: 35%;
 }
@@ -76,13 +76,16 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 600px;
+    height: 550px;
     max-width: 100%;
     display:flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
-
+/* .subscribe-bg{
+    -webkit-filter: blur(8px);
+    filter: blur(8px);       
+} */
 .subscribe-sec{
     padding-top: 100px;
     width: 50%;
@@ -91,4 +94,42 @@
     padding-inline: 150px 50px;
     font-family: "Questrial", sans-serif ;
     font-weight: 400;
+}
+.subscribe-sec h2{
+    font-size: 45px;
+    padding-bottom: 25px;
+    line-height: 50px;
+
+}
+.subscribe-sec .subscribe-p{
+    line-height: 26px;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+#mail{
+    padding: 15px 30px;
+    border: none;
+    font-size: 17px;
+    font-size: 16px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.sec-input{
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+.send-btn{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    padding:10px 65px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
 }
