@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import Button from '../Button/Button';
 
 const Header = () => {
   return (
@@ -9,12 +10,19 @@ const Header = () => {
           <div className="logo">
             NoteMaster
           </div>
+    
           <ul className="navlinks">
-            <li className="home"><a href="#home">Memoir Collection</a></li>
-            <li><a href="#MasterpieceCollection">Masterpiece Collection</a></li>
-            <li><a href="#InspireCollection">Inspire Collection </a></li>
-            <li><a href="#New">New</a></li>
-            <li><a href="#Bestsellers">Bestsellers</a></li>
+            {[
+              { href: '#home', label: 'Memoir Collection', className: 'home' },
+              { href: '#MasterpieceCollection', label: 'Masterpiece Collection' },
+              { href: '#InspireCollection', label: 'Inspire Collection' },
+              { href: '#New', label: 'New' },
+              { href: '#Bestsellers', label: 'Bestsellers' },
+            ].map((link) => (
+              <li key={link.href} className={link.className || ''}>
+                <a href={link.href}>{link.label}</a>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>
@@ -28,8 +36,8 @@ const Header = () => {
             </p>
           </div>
           <div className="hero-button">
-            <button className="btn-explore ">Explore</button>
-          </div> 
+            <Button variant="explore">Explore</Button>
+          </div>
       </div>
       <div className="hero-image">
         <img 

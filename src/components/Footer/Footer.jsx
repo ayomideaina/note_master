@@ -15,19 +15,27 @@ const Footer = () => {
 
         <div>
           <ul className="footerlinks">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
+            {[
+              { href: '#home', label: 'Home' },
+              { href: '#about', label: 'About Us' },
+              { href: '#contact', label: 'Contact' },
+            ].map((l) => (
+              <li key={l.href}><a href={l.href}>{l.label}</a></li>
+            ))}
           </ul>
         </div>
 
         <div>
           <ul className="footerlinks">
-            <li><a href="#home">Informations</a></li>
-            <li><a href="#FAQ">FAQ</a></li>
-            <li><a href="#Terms and Conditions">Terms and Conditions</a></li>
-            <li><a href="#Privacy policy">Privacy policy</a></li>
-            <li><a href="#Delivery and payment">Delivery and payment</a></li>
+            {[
+              { href: '#info', label: 'Informations' },
+              { href: '#FAQ', label: 'FAQ' },
+              { href: '#terms', label: 'Terms and Conditions' },
+              { href: '#privacy', label: 'Privacy policy' },
+              { href: '#delivery', label: 'Delivery and payment' },
+            ].map((l) => (
+              <li key={l.href}><a href={l.href}>{l.label}</a></li>
+            ))}
           </ul>
         </div>
 
@@ -42,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p>Website made by Me </p>
+      <p>Website made by MideCodes </p>
     </footer>
   );
 };
