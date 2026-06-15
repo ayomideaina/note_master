@@ -1,0 +1,56 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  display: inline-block;
+  transition: background-color 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover:not(:disabled) {
+  opacity: 0.92;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn--explore {
+  padding: 10px 20px;
+  width: 200px;
+  display: block;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.btn--percent {
+  display: block;
+  padding: 32px 25px;
+  border-radius: 50%;
+}
+
+.btn--go-to {
+  display: block;
+  font-size: 15px;
+  padding: 11px 40px;
+}
+
+.btn--nr {
+  display: block;
+  margin-inline: 100px;
+  margin-block: 90px;
+  padding: 32px 25px;
+  border-radius: 50%;
+}
+
+.btn--send {
+  padding: 10px 65px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.btn--full-width {
+  width: 100%;
+}
